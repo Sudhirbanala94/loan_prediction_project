@@ -1,19 +1,32 @@
 # 🏦 Loan Prediction System
 
-A machine learning application that predicts loan approval decisions based on applicant data using multiple ML algorithms.
+A comprehensive machine learning application that predicts loan approval decisions with both CLI and web interfaces.
 
 ## ✨ Features
 
-- **Multi-Model Comparison**: Tests 4 different ML algorithms (Random Forest, Gradient Boosting, Logistic Regression, SVM)
-- **Automatic Model Selection**: Picks the best-performing model
-- **Interactive Prediction**: CLI interface for real-time loan predictions
-- **Data Preprocessing**: Handles missing values, feature engineering
-- **Model Persistence**: Save/load trained models
-- **Comprehensive Testing**: Unit tests and performance validation
+- **🌐 Web Application**: Professional web interface with modern UI/UX
+- **🤖 Multi-Model ML**: Tests 4 different ML algorithms (Random Forest, Gradient Boosting, Logistic Regression, SVM)
+- **🎯 Automatic Model Selection**: Picks the best-performing model
+- **💻 Interactive Prediction**: Both CLI and web interfaces
+- **🔧 Data Preprocessing**: Handles missing values, feature engineering
+- **💾 Model Persistence**: Save/load trained models
+- **🧪 Comprehensive Testing**: Unit tests and performance validation
+- **📱 Responsive Design**: Works on desktop, tablet, and mobile
 
 ## 🚀 Quick Start
 
-### Installation
+### 🌐 Web Application (Recommended)
+```bash
+# Install dependencies
+pip install Flask flask-cors pandas scikit-learn numpy joblib
+
+# Launch web application
+python3 run_web_app.py
+
+# Open browser to http://localhost:5000
+```
+
+### 💻 Command Line Interface
 ```bash
 # Navigate to project directory
 cd loan_prediction_project
